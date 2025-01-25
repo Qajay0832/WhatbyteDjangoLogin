@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}Login{% endblock title %}
+
+{% block body %}
+<div class='signup-wrapper' >
+    <h2 class='title'>Login on <span >WhatByte.</span></h2>
+    <form>
+      <input type="text" label='Email' placeholder='Email or Username' name="username" />
+      <input type="password" label='Password' placeholder='password' name="password" />
+      <input type="button"  value='Login Using Email/Username and Password' />
+      <p class='p-login'>or Don't Have An Account ? Click Here</p>
+      <p class='p-login'>or Forgot Password ? Click Here</p>
+    </form>
+  </div>
+
+{% endblock body %}
